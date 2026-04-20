@@ -1,0 +1,4 @@
+SELECT department, COUNT(*) AS emp_count
+FROM Employee 
+GROUP BY department
+HAVING COUNT(*) > 2;
