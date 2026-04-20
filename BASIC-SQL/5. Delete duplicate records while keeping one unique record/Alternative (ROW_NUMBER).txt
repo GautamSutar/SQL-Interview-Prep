@@ -1,0 +1,12 @@
+DELETE FROM Employee
+WHERE emp_id IN (
+    SELECT emp_id FROM (
+        SELECT emp_id,
+               ROW_NUMBER() OVER (
+                   PARTITION BY name, email, salary
+                   ORDER BY emp_id
+               ) AS rn
+        FROM Employee
+    ) t
+    WHERE rn > 1
+);
