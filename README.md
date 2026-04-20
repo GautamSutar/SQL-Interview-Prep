@@ -15,19 +15,16 @@
 
 ## 📖 About the Project
 
-Landing a backend role today means more than knowing how to write a `SELECT` statement. Interviewers at top companies consistently probe candidates on **complex joins**, **window functions**, **query optimization**, **indexing strategies**, and **schema design** — skills that separate strong engineers from the rest.
+I'm a backend developer working with **Python and Django**, and while preparing for job interviews I started noting down every SQL question I came across. This repo is simply that collection — organized, documented, and shared publicly in case it helps someone else too.
 
-This repository was born out of real interview experiences. As a backend developer working with **Python and Django**, I kept a running log of every SQL question I encountered across technical screenings — and turned that log into this structured, open resource.
+It covers the kinds of queries that actually show up in interviews: joins, subqueries, aggregations, window functions, and more — each with a working schema so you can run and test things yourself.
 
-**What makes this repo different:**
+**What's inside:**
 
-- 📌 **Real questions** — sourced from actual technical interviews, not textbook theory
-- ✅ **Optimal answers** — each solution is annotated and aims for performance, not just correctness
-- 🏗️ **Schema-first** — every problem includes the table setup so you can practice hands-on
-- 📊 **Concept-driven structure** — questions are organized by SQL topic, making it easy to target your weak spots
-- 🔍 **Explanation-focused** — solutions explain *why* a query works, including indexing hints and optimization notes
-
-Whether you're preparing for a FAANG screening, a startup's take-home test, or brushing up your database fundamentals — this repo has you covered.
+- 📌 **Real questions** — things I actually encountered during interview prep, not just textbook exercises
+- ✅ **Written solutions** — each answer includes comments explaining the approach
+- 🏗️ **Schema included** — every problem comes with table setup so you can practice hands-on
+- 📊 **Organized by topic** — easy to find questions on a specific concept you want to revisit
 
 
 ---
@@ -37,7 +34,7 @@ Whether you're preparing for a FAANG screening, a startup's take-home test, or b
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/SQL-Interview-Prep.git
+git clone https://github.com/GautamSutar/SQL-Interview-Prep.git
 cd SQL-Interview-Prep
 ```
 
@@ -142,18 +139,14 @@ I'm always open to networking, feedback, and collaboration. Let's connect!
 
 ## ⭐ Show Your Support
 
-If this repo helped you land an offer, ace a round, or simply taught you something new — **give it a star!** ⭐ It helps other developers discover it and motivates continued updates.
-
-```
-Every star is a developer better prepared for their next interview. 🙌
-```
+If this helped you prep or learn something new, a star would mean a lot! ⭐ It helps others find the repo too.
 
 ---
 
 <div align="center">
 
-**Built with 💻 + ☕ by a backend developer who's been through the grind.**
+**Made by a developer preparing for interviews, shared for anyone doing the same.**
 
-*Happy querying — and good luck on that interview!* 🚀
+*Good luck with your prep!* 🙂
 
 </div>
