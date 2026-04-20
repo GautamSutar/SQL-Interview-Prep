@@ -1,0 +1,4 @@
+SELECT name, email, salary, COUNT(*)
+FROM Employee
+GROUP BY name, email, salary
+HAVING COUNT(*) > 1;
