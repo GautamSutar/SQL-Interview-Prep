@@ -1,0 +1,3 @@
+SELECT department, SUM(salary) AS Total_Salary 
+FROM employee
+GROUP BY department;
