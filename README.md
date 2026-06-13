@@ -1,4 +1,4 @@
-# 🎯 SQL-Interview-Prep
+gi# 🎯 SQL-Interview-Prep
 
 > **Crack the database interview.** 💼 A curated collection of real SQL queries asked in technical interviews — complete with optimal solutions, schema setups, and explanations. Built for CS students and developers ready to dominate their next data round.
 
